@@ -46,7 +46,15 @@ print(tuple[2:])
 print(tuple *2)
 
 # Dictionary
-dict = 
+dict = {}
+dict['one'] = "This is one"
+dict[2] = "This is two"
+tinydict = {'name': 'John','code':6734, 'dept': 1007}
+print(dict['one'])
+print(tinydict)
+print(tinydict.keys())
+print(tinydict.values())
+
 
 
 
